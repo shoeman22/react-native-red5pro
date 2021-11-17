@@ -20,4 +20,5 @@ Pod::Spec.new do |s|
   s.exclude_files          = 'example/**/*'
   s.dependency               'React'
   s.vendored_frameworks    = "R5Streaming.framework"
+  s.public_header_files    = 'R5Streaming.framework/Headers/*.h'
 end
