@@ -77,8 +77,8 @@ public class PublishService extends Service {
 				}
 
 				holderNote = notificationBuilder
-						.setContentTitle("Live Streaming")
-						.setContentText("Continuing to broadcast from background")
+						.setContentTitle("Kwivrr")
+						.setContentText("Streaming continuing from background.")
 						.setSmallIcon(android.R.drawable.ic_media_play)
 						.build();
 				startForeground(57234111, holderNote);
