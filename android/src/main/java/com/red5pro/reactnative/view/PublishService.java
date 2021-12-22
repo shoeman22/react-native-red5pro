@@ -77,8 +77,8 @@ public class PublishService extends Service {
 				}
 
 				holderNote = notificationBuilder
-						.setContentTitle("Red5 Pro")
-						.setContentText("Publishing from the background")
+						.setContentTitle("Kwivrr")
+						.setContentText("Continuing to stream from background.")
 						.setSmallIcon(android.R.drawable.ic_media_play)
 						.build();
 				startForeground(57234111, holderNote);
